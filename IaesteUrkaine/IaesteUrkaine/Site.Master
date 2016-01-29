@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="IaesteUrkaine.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">     
+         <div>
+             <%--navigation--%>            
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <div>
+                            <a href="Main.aspx"><span>
+                                <img src="Images/Logo-IAESTE-white-transparent-background1.png" height="30" />
+                                IAESTE Ukraine</span> </a>
+                        </div>
+                    </li>
+                    <li class="current"><a href="Main.aspx">Головна</a></li>
+                    <li><a href="#">Вимоги</a></li>
+                    <li><a href="#">Конференція</a></li>
+                    <li><a href="#">Інтернаціоналізація освіти</a></li>
+                    <li><a href="#">Сучасна математика для інженерів</a></li>
+                    <li><a href="#">Офери</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </form>
+</body>
+</html>

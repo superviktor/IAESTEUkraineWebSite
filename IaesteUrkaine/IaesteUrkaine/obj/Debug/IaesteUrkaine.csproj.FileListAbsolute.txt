@@ -1,0 +1,12 @@
+C:\Users\HOUSE\Documents\Visual Studio 2013\Projects\IaesteUrkaine\IaesteUrkaine\bin\IaesteUrkaine.dll.config
+C:\Users\HOUSE\Documents\Visual Studio 2013\Projects\IaesteUrkaine\IaesteUrkaine\bin\IaesteUrkaine.dll
+C:\Users\HOUSE\Documents\Visual Studio 2013\Projects\IaesteUrkaine\IaesteUrkaine\bin\IaesteUrkaine.pdb
+C:\Users\HOUSE\Documents\Visual Studio 2013\Projects\IaesteUrkaine\IaesteUrkaine\obj\Debug\IaesteUrkaine.csprojResolveAssemblyReference.cache
+C:\Users\HOUSE\Documents\Visual Studio 2013\Projects\IaesteUrkaine\IaesteUrkaine\obj\Debug\IaesteUrkaine.dll
+C:\Users\HOUSE\Documents\Visual Studio 2013\Projects\IaesteUrkaine\IaesteUrkaine\obj\Debug\IaesteUrkaine.pdb
+E:\IAESTEUkraine\IAESTEUkraineWebSite\IaesteUrkaine\IaesteUrkaine\bin\IaesteUrkaine.dll.config
+E:\IAESTEUkraine\IAESTEUkraineWebSite\IaesteUrkaine\IaesteUrkaine\bin\IaesteUrkaine.dll
+E:\IAESTEUkraine\IAESTEUkraineWebSite\IaesteUrkaine\IaesteUrkaine\bin\IaesteUrkaine.pdb
+E:\IAESTEUkraine\IAESTEUkraineWebSite\IaesteUrkaine\IaesteUrkaine\obj\Debug\IaesteUrkaine.csprojResolveAssemblyReference.cache
+E:\IAESTEUkraine\IAESTEUkraineWebSite\IaesteUrkaine\IaesteUrkaine\obj\Debug\IaesteUrkaine.dll
+E:\IAESTEUkraine\IAESTEUkraineWebSite\IaesteUrkaine\IaesteUrkaine\obj\Debug\IaesteUrkaine.pdb
