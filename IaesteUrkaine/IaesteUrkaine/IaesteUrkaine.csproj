@@ -57,7 +57,23 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\arg.png" />
+    <Content Include="Images\arm.png" />
+    <Content Include="Images\austra.png" />
+    <Content Include="Images\austria.png" />
+    <Content Include="Images\bel.png" />
+    <Content Include="Images\bos.png" />
+    <Content Include="Images\bra.png" />
+    <Content Include="Images\can.png" />
+    <Content Include="Images\kaz.png" />
+    <Content Include="Images\leb.png" />
+    <Content Include="Images\lit.png" />
     <Content Include="Images\Logo-IAESTE-white-transparent-background1.png" />
+    <Content Include="Images\mal.png" />
+    <Content Include="Images\mex.png" />
+    <Content Include="Images\mon.png" />
+    <Content Include="Images\nor.png" />
+    <Content Include="Images\oma.png" />
     <Content Include="Main.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />

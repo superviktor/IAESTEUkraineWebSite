@@ -41,15 +41,15 @@
     <%--splitter--%>
     <div class="splitter">
     </div>
-    
+
 
     <div class="alwaysBackground">
         <p class="explainTitle">Що таке IAESTE ?</p>
     </div>
-    
+
 
     <%-- iaeste explain--%>
-    <div class="explain">      
+    <div class="explain">
         <ul style="display: inline-block">
             <li style="margin: 20px">
                 <img src="Images/Logo-IAESTE-white-transparent-background1.png" height="160" />
@@ -63,6 +63,161 @@
                 <p class="explainText">E - Experience (Досвіду)</p>
             </li>
         </ul>
+    </div>
+
+    <%--splitter--%>
+    <div class="splitter">
+    </div>
+
+    <div class="alwaysBackground">
+        <p class="explainTitle">Список країн, які є повними членами IAESTE</p>
+    </div>
+
+    <div class="alwaysBackground" style="text-align: center">
+        <ul style="display: inline-block">
+            <li >
+                <table class="table" style="width: auto; margin: 20px" >
+                    <tr>
+                        <td>
+                            <img src="Images/arg.png" style="height: 24px; width: 36px" />
+                        </td>
+                        <td>Argentina</td>
+                        <td>Аргентина</td>
+                        <td>1961</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="Images/arm.png" style="height: 24px; width: 36px" />
+                        </td>
+                        <td>Armenia</td>
+                        <td>Вірменія</td>
+                        <td>1998</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="Images/austra.png" style="height: 24px; width: 36px" />
+                        </td>
+                        <td>Australia</td>
+                        <td>Австралія</td>
+                        <td>1996</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="Images/austria.png" style="height: 24px; width: 36px" />
+                        </td>
+                        <td>Austria</td>
+                        <td>Австрія</td>
+                        <td>1949</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="Images/bel.png" style="height: 24px; width: 36px" />
+                        </td>
+                        <td>Belgium </td>
+                        <td>Бельгія</td>
+                        <td>1948</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="Images/bos.png" style="height: 24px; width: 36px" />
+                        </td>
+                        <td>Bosnia and Herzegovina</td>
+                        <td>Боснія і Герцоговина</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="Images/bra.png" style="height: 24px; width: 36px" />
+                        </td>
+                        <td>Brazil</td>
+                        <td>Бразилія</td>
+                        <td>1982</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="Images/can.png" style="height: 24px; width: 36px" />
+                        </td>
+                        <td>Canada</td>
+                        <td>Канада </td>
+                        <td>1953</td>
+                    </tr>
+                </table>
+
+            </li>
+         <%--   second column--%>
+             <li >
+                <table class="table" style="width: auto;margin: 20px" >
+                    <tr>
+                        <td>
+                            <img src="Images/kaz.png" style="height: 24px; width: 36px" />
+                        </td>
+                        <td>Kazakhstan</td>
+                        <td>Казахстан</td>
+                        <td>1995</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="Images/leb.png" style="height: 24px; width: 36px" />
+                        </td>
+                        <td>Lebanon</td>
+                        <td>Ліван</td>
+                        <td>1966</td>
+                    </tr>                 
+                    <tr>
+                        <td>
+                            <img src="Images/lit.png" style="height: 24px; width: 36px" />
+                        </td>
+                        <td>Lithuania</td>
+                        <td>Литва</td>
+                        <td>1990</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="Images/mal.png" style="height: 24px; width: 36px" />
+                        </td>
+                        <td>Malta</td>
+                        <td>Мальта</td>
+                        <td>1984</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="Images/mex.png" style="height: 24px; width: 36px" />
+                        </td>
+                        <td>Mexico</td>
+                        <td>Мексика</td>
+                        <td>1985</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="Images/mon.png" style="height: 24px; width: 36px" />
+                        </td>
+                        <td>Mongolia</td>
+                        <td>Монголія</td>
+                        <td>2001</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="Images/nor.png" style="height: 24px; width: 36px" />
+                        </td>
+                        <td>Norway</td>
+                        <td>Норвегія</td>
+                        <td>1948</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="Images/oma.png" style="height: 24px; width: 36px" />
+                        </td>
+                        <td>Oman</td>
+                        <td>Оман</td>
+                        <td>2001</td>
+                    </tr>
+
+
+
+                </table>
+            </li>
+        </ul>
+
     </div>
 
     <div>

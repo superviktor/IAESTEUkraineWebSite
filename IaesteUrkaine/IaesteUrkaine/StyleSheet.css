@@ -178,3 +178,11 @@ input[type=checkbox] {
 .alwaysBackground {
     background: #2f3036;
 }
+
+.table td{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    padding: 6px;
+}
+
