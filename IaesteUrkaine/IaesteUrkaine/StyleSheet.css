@@ -1,11 +1,16 @@
-﻿/*Strip the ul of padding and list styling*/
+﻿
+/*Strip the ul of padding and list styling*/
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: absolute;
-    /*width: 100%;*/
-    /*background: #2f3036;*/
+    overflow: hidden;
+    display: inline-block;
+    /*position: absolute;*/
+    /*top: 0;
+    left: 0;*/
+    /*width: 100%;
+    background: #2f3036;*/
 }
 
 /*Create a horizontal list with spacing*/
@@ -61,7 +66,7 @@ li {
 
             /*Prevent text wrapping*/
             li ul li a {
-                width: auto;
+                width: 40px;
                 min-width: 100px;
                 padding: 0 30px;
             }
@@ -69,6 +74,7 @@ li {
 /*Display the dropdown on hover*/
 ul li a:hover + .hidden, .hidden:hover {
     display: block;
+    position: absolute;
 }
 
 
@@ -114,4 +120,30 @@ input[type=checkbox] {
     .show-menu {
         display: block;
     }
+}
+
+.navDiv {
+    overflow: hidden;
+    width: 100%;
+    background: #2f3036;
+    text-align: center;
+    line-height: 1em;
+}
+
+
+#logo {
+    background: #2f3036;
+    width: 100%;
+    text-align: center;
+}
+#logo img {
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#logoText {
+    vertical-align: middle;
+    font-size: 60px;
+    color: white;
+    margin: 0;
 }

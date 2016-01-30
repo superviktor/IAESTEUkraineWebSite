@@ -8,33 +8,45 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    
 </head>
 <body>
-    <%--navigation--%>
-    <label for="show-menu" class="show-menu">Show Menu</label>
-    <input type="checkbox" id="show-menu" role="button" />
-    <ul id="menu">
-        <li>
-            <div>
-                <a href="Main.aspx"><span>
-                    <img src="Images/Logo-IAESTE-white-transparent-background1.png" height="30" />
-                    IAESTE Ukraine</span> </a>
-            </div>
-        </li>
-        <li class="current"><a href="Main.aspx">Головна</a></li>
-        <li><a href="#">Вимоги</a></li>
-        <li>
-            <a href="#">Конференція</a>
-            <ul class="hidden">
-                <li><a href="#">2015</a></li>
-                <li><a href="#">2016</a></li>
-            </ul>
-        </li>
-        <li><a href="#">Інтернаціоналізація освіти</a></li>
-        <li><a href="#">Сучасна математика для інженерів</a></li>
-        <li><a href="#">Офери</a></li>
-    </ul>    
+     <div id="logo" >
+        <img  src="Images/Logo-IAESTE-white-transparent-background1.png" height="200"/>
+        <p id="logoText">Ukraine</p>
+    </div>
 
+    <div class="navDiv">
+        <%--navigation--%>
+        <label for="show-menu" class="show-menu">Show Menu</label>
+        <input type="checkbox" id="show-menu" role="button" />
+        <ul id="menu">         
+            <li class="current"><a href="Main.aspx">Головна</a></li>
+            <li><a href="#">Вимоги</a></li>
+            <li>
+                <a href="#">Конференція</a>
+                <ul class="hidden">
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2016</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Інтернаціоналізація освіти</a></li>
+            <li><a href="#">Сучасна математика для інженерів</a></li>
+            <li><a href="#">Офери</a></li>
+        </ul>
+    </div>
+    
+
+    <div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      
+    </div>
+    
+   
     <form id="form1" runat="server">
     </form>
 </body>
