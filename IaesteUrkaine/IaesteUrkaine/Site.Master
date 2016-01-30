@@ -10,28 +10,32 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">     
-         <div>
-             <%--navigation--%>            
-            <nav class="nav">
-                <ul>
-                    <li>
-                        <div>
-                            <a href="Main.aspx"><span>
-                                <img src="Images/Logo-IAESTE-white-transparent-background1.png" height="30" />
-                                IAESTE Ukraine</span> </a>
-                        </div>
-                    </li>
-                    <li class="current"><a href="Main.aspx">Головна</a></li>
-                    <li><a href="#">Вимоги</a></li>
-                    <li><a href="#">Конференція</a></li>
-                    <li><a href="#">Інтернаціоналізація освіти</a></li>
-                    <li><a href="#">Сучасна математика для інженерів</a></li>
-                    <li><a href="#">Офери</a></li>
-                </ul>
-            </nav>
-        </div>
+    <%--navigation--%>
+    <label for="show-menu" class="show-menu">Show Menu</label>
+    <input type="checkbox" id="show-menu" role="button" />
+    <ul id="menu">
+        <li>
+            <div>
+                <a href="Main.aspx"><span>
+                    <img src="Images/Logo-IAESTE-white-transparent-background1.png" height="30" />
+                    IAESTE Ukraine</span> </a>
+            </div>
+        </li>
+        <li class="current"><a href="Main.aspx">Головна</a></li>
+        <li><a href="#">Вимоги</a></li>
+        <li>
+            <a href="#">Конференція</a>
+            <ul class="hidden">
+                <li><a href="#">2015</a></li>
+                <li><a href="#">2016</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Інтернаціоналізація освіти</a></li>
+        <li><a href="#">Сучасна математика для інженерів</a></li>
+        <li><a href="#">Офери</a></li>
+    </ul>    
 
+    <form id="form1" runat="server">
     </form>
 </body>
 </html>
