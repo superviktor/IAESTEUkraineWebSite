@@ -32,6 +32,7 @@ li {
         background: #2f3036;
         text-decoration: none;
         padding: 0px 10px 0px 10px;
+        font-size: 20px;
     }
 
     /*Hover state for top level links*/
@@ -122,6 +123,30 @@ input[type=checkbox] {
     }
 }
 
+#logo {
+    background: #2f3036;
+    width: 100%;
+    text-align: center;
+}
+
+    #logo img {
+        margin-top: 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+#logoText {
+    vertical-align: middle;
+    font-size: 60px;
+    color: white;
+    margin: 0;
+}
+
+.splitter {
+    height: 1px;
+    background: white;
+}
+
 .navDiv {
     overflow: hidden;
     width: 100%;
@@ -130,20 +155,26 @@ input[type=checkbox] {
     line-height: 1em;
 }
 
-
-#logo {
-    background: #2f3036;
+.explain {
     width: 100%;
+    background: #2f3036;
     text-align: center;
 }
-#logo img {
-    margin-top: 10px;
-    display: inline-block;
-    vertical-align: middle;
-}
-#logoText {
-    vertical-align: middle;
+
+.explainTitle {
     font-size: 60px;
     color: white;
+    text-align: center;
     margin: 0;
+}
+
+.explainText {
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    text-align: left;
+}
+
+.alwaysBackground {
+    background: #2f3036;
 }
