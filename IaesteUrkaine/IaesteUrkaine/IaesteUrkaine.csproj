@@ -65,16 +65,44 @@
     <Content Include="Images\bos.png" />
     <Content Include="Images\bra.png" />
     <Content Include="Images\can.png" />
+    <Content Include="Images\co.png" />
+    <Content Include="Images\cr.png" />
+    <Content Include="Images\cy.png" />
+    <Content Include="Images\cz.png" />
+    <Content Include="Images\dk.png" />
+    <Content Include="Images\ec.png" />
+    <Content Include="Images\eg.png" />
+    <Content Include="Images\fi.png" />
+    <Content Include="Images\fr.png" />
+    <Content Include="Images\ger.png" />
+    <Content Include="Images\gh.png" />
+    <Content Include="Images\gr.png" />
+    <Content Include="Images\hu.png" />
+    <Content Include="Images\il.png" />
+    <Content Include="Images\ir.png" />
+    <Content Include="Images\irla.png" />
+    <Content Include="Images\is.png" />
+    <Content Include="Images\jo.png" />
+    <Content Include="Images\jp.png" />
     <Content Include="Images\kaz.png" />
     <Content Include="Images\leb.png" />
     <Content Include="Images\lit.png" />
     <Content Include="Images\Logo-IAESTE-white-transparent-background1.png" />
     <Content Include="Images\mal.png" />
     <Content Include="Images\mex.png" />
+    <Content Include="Images\mk.png" />
     <Content Include="Images\mon.png" />
     <Content Include="Images\nor.png" />
     <Content Include="Images\oma.png" />
+    <Content Include="Images\Photos\1st.jpg" />
+    <Content Include="Images\Photos\2nd.jpg" />
+    <Content Include="Images\Photos\3.jpg" />
+    <Content Include="Images\Photos\4.jpg" />
+    <Content Include="Images\Photos\5.jpg" />
+    <Content Include="Images\Photos\6.jpg" />
     <Content Include="Main.aspx" />
+    <Content Include="PhotoGalary.aspx" />
+    <Content Include="PhotoGalaryCSS.css" />
     <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -85,6 +113,13 @@
     </Compile>
     <Compile Include="Main.aspx.designer.cs">
       <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoGalary.aspx.cs">
+      <DependentUpon>PhotoGalary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGalary.aspx.designer.cs">
+      <DependentUpon>PhotoGalary.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
